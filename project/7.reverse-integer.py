@@ -11,13 +11,15 @@ https://leetcode.com/problems/reverse-integer/
 
 class Solution:
     def reverse(self, x: int) -> int:
-        if x < -2**31 or x > 2 ** 31 - 1:
-            return 0
+        result = 0
         if x > 0:
-            return int(str(x)[::-1])
+            result = int(str(x)[::-1])
         else:
-            return - int(str(-x)[::-1])
+            result = - int(str(-x)[::-1])
+        if result < -2 ** 31 or result > 2 ** 31 - 1:
+            result = 0
+        return result
 
 
 solution = Solution()
-print(solution.reverse(-2**32))
+print(solution.reverse(1534236469))
