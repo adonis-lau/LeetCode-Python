@@ -4,6 +4,9 @@
 """
 11. Container With Most Water
 https://leetcode.com/problems/container-with-most-water/
+
+解题思路：
+Two Pointer Approach
 """
 from typing import List
 
