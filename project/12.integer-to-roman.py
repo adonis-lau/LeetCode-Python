@@ -4,6 +4,9 @@
 """
 12. Integer to Roman
 https://leetcode.com/problems/integer-to-roman/
+
+解题思路：
+因为限定了值范围，所以直接使用穷举法
 """
 from collections import OrderedDict
 
@@ -33,6 +36,7 @@ class Solution:
                 if num <= 0:
                     break
         return "".join([a for a in roman_num(num)])
+
 
 solution = Solution()
 print(solution.intToRoman(123))
