@@ -30,7 +30,10 @@ class Solution:
 
         def roman_num(num):
             for r in roman.keys():
+                # divmod() 函数把除数和余数运算结果结合起来，返回一个包含商和余数的元组(a // b, a % b)
+                # x 为商，y为余数
                 x, y = divmod(num, r)
+                # 字符串 * 数字n，就是把这个字符串重复n次
                 yield roman[r] * x
                 num -= (r * x)
                 if num <= 0:
