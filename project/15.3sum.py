@@ -2,8 +2,8 @@
 # -*- coding: UTF-8 -*-
 
 """
-14. Longest Common Prefix
-https://leetcode.com/problems/longest-common-prefix/
+15. 3Sum
+https://leetcode.com/problems/3sum/
 """
 from typing import List
 import itertools
