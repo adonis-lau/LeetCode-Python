@@ -4,8 +4,6 @@
 """
 28. Implement strStr()
 https://leetcode.com/problems/implement-strstr/
-解题思路：
-双指针
 """
 
 
