@@ -24,7 +24,6 @@ class Solution:
         n = len(nums)
         # 倒序循环
         for i in reversed(range(n - 1)):
-            print(i)
             # 如果左边的值小于右边
             if nums[i] < nums[i + 1]:
                 # 找到最大值的下标
