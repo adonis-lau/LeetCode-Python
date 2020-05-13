@@ -11,6 +11,7 @@ class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         s_len, p_len = len(s), len(p)
         s_idx = p_idx = 0
+        # 用于记录回溯位置
         star_idx = s_tmp_idx = -1
 
         while s_idx < s_len:
