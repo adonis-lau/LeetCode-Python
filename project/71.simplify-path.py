@@ -4,8 +4,6 @@
 """
 71. Simplify Path
 https://leetcode.com/problems/simplify-path/
-解题思路：
-最后一步可能跨了一级台阶，也可能跨了两级台阶，所以 当x > 1 时 f(x) = f(x-1) + f(x-2)，x表示当前台阶层数
 """
 
 
