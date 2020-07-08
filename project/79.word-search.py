@@ -61,3 +61,21 @@ class Solution:
         return False
 
 
+solution = Solution()
+print(solution.exist([
+    ['A', 'B', 'C', 'E'],
+    ['S', 'F', 'C', 'S'],
+    ['A', 'D', 'E', 'E']
+], "ABCCED"))
+
+print(solution.exist([
+    ['A', 'B', 'C', 'E'],
+    ['S', 'F', 'C', 'S'],
+    ['A', 'D', 'E', 'E']
+], "SEE"))
+
+print(solution.exist([
+    ['A', 'B', 'C', 'E'],
+    ['S', 'F', 'C', 'S'],
+    ['A', 'D', 'E', 'E']
+], "ABCB"))
