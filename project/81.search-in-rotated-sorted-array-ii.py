@@ -13,6 +13,8 @@ from typing import List
 
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
+        # 库函数
+        # return target in nums
         l = 0
         r = len(nums) - 1
         # 左下标小于右下标
